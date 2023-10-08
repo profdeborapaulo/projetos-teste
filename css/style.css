@@ -1,0 +1,34 @@
+.container{
+    background-color: #ccc;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;   
+    align-items: stretch;   
+    align-content: stretch;
+    }
+
+.item{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    width: 100px;
+    /*height: 50px;*/
+    }
+
+
+    /*
+Revisando:
+Valores possíveis para o Flex-Direction:
+row | column | row-reverse | column-reverve
+
+Valores possíveis para o Flex-Wrap:
+nowrap | wrap | wrap-reverse 
+
+Valores possíveis praa o justify-content:
+flex-start | flex-end | center | space-between | space-around 
+
+Valores possíveis do ALIGN-ITENS:
+stretch | flex-start | flex-end | center | baseline
+*/

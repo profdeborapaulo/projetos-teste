@@ -1,0 +1,49 @@
+.container{
+    background-color: #ccc;
+    height: 500px; 
+    display: flex;   
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*flex-flow: row wrap;*/
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    
+
+
+    /* flex-direction: row, column, row-reverse, column-reverse */
+    /* flex-wrap: wrap, nowrap; wrap-reverse; */
+    /* flex-flow: agrupa o flex-direction com o flex-wrap */
+    /* justify-content: flex-start, flex-end, center, space-between, space-around*/
+    /* align-items: stretch, flex-start, flex-end, center, baseline */
+    /* align-content: flex-start, flex-end, center, space-between, space-around, stretch  */
+}
+.item{
+    background-color: rgb(65, 47, 47);
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    width: 350px;    
+    }
+
+
+
+
+
+
+
+
+    /*
+Revisando:
+Valores possíveis para o Flex-Direction:
+row | column | row-reverse | column-reverve
+
+Valores possíveis para o Flex-Wrap:
+nowrap | wrap | wrap-reverse 
+
+Valores possíveis praa o justify-content:
+flex-start | flex-end | center | space-between | space-around 
+
+Valores possíveis do ALIGN-ITENS:
+stretch | flex-start | flex-end | center | baseline
+*/
